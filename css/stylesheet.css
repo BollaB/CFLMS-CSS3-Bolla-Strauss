@@ -1,0 +1,107 @@
+body{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    width: 800px;
+    height: 300px;
+}
+
+#c-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+
+}
+
+#usage{
+    background: -moz-linear-gradient(top,#FFFCAD 0%, #C62229 100%);
+        background: -webkit-linear-gradient(top,#FFFCAD 0%, #C62229 100%);
+        background: linear-gradient(top,#FFFCAD 0%, #C62229 100%);
+    width: 800px;
+    height: 300px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#usage-box{
+    background-color: whitesmoke;
+    background-image: url(https://i.pinimg.com/originals/0d/af/b7/0dafb7928a99a9cb552a941895a6e586.jpg);
+    width: 700px;
+    height: 200px;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    justify-content: space-evenly;
+    box-shadow: 0px 0px 50px;
+}
+
+.box{
+    background: -moz-linear-gradient(top,#FCB656 0%, #F54725 100%);
+        background: -webkit-linear-gradient(top,#FCB656 0%, #F54725 100%);
+        background: linear-gradient(top,#FCB656 0%, #F54725 100%);
+    text-align: center;
+    width: 160px;
+    height: 160px;
+    font-weight: bolder;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px;
+    -webkit-transition: width 0.5s, height 0.5s, -webkit-transform 0.5s; /* Safari */
+    transition: width 0.5s, height 0.5s, transform 0.5s;
+}
+
+.box:hover{
+    width: 170px;
+    height: 180px;
+}
+
+
+
+
+
+
+h1{
+    text-align: center;
+    margin-bottom: -63px;
+}
+
+
+
+#credit{
+    background-color: turquoise;
+    width: 400px;
+    height: 200px;
+    margin-top: 60px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    justify-content: space-evenly;
+    box-shadow: 0px 0px 50px;
+
+}
+
+
+
+
+
+
+
+.box2{
+    background-color: whitesmoke;
+    text-align: center;
+    width: 190px;
+    height: 190px;
+    font-weight: bolder;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px;
+    -webkit-transition: width 0.5s, height 0.5s, -webkit-transform 0.5s; /* Safari */
+    transition: width 0.5s, height 0.5s, transform 0.5s;
+     justify-content: center;
+    align-items: center;
+    display: flex;
+    justify-content: space-evenly;
