@@ -1,0 +1,59 @@
+body {
+	background-color: lightgrey;
+}
+#transition1 {
+	height: 150px;
+	width: 150px;
+	background-color: #C28874;
+	border: 2px solid black;
+}
+
+#transition1:hover {
+	height: 250px;
+	width: 350px;
+	background-color: white;
+	text-align: center;
+}
+
+#transition1 {
+	transition: width: 2s, height: 3s;
+	transition-timing-function: linear;
+}
+
+#transition2 {
+	height: 150px;
+	width: 150px;
+	background-color: #C28874;
+	border: 2px solid black;
+}
+
+#transition2:hover {
+	height: 100px;
+	width: 200px;
+	background-color: red;
+	text-align: center;
+}
+
+#transition2 {
+	transition: width: 3s, height: 4s;
+	transition-timing-function: linear;
+}
+
+#transition3 {
+	height: 150px;
+	width: 150px;
+	background-color: #C28874;
+	border: 2px solid black;
+}
+
+#transition3:hover {
+	height: 90px;
+	width: 100px;
+	background-color: green;
+	text-align: center;
+}
+
+#transition3 {
+	transition: width: 4s, height: 5s;
+	transition-timing-function: linear;
+}
