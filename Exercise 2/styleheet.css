@@ -1,0 +1,100 @@
+#container{
+    width: 320px;
+    height: 900px;
+    background-color: yellowgreen;
+    padding: 10px;
+
+}
+
+
+#nutritionfacts{
+    border: 2px black solid;
+    display: flex;
+    justify-content: center;
+}
+
+#serving-size{
+    border: 2px black solid;
+}
+
+
+#serving-size p  {
+    margin: 2px;
+}
+
+#blackbar{
+    background-color: black;
+    width: 320px;
+    height: 25px;
+}
+
+#milk{
+    display: flex;
+    justify-content: flex-end;
+    border: 2px black solid;
+}
+
+#servings-div{
+    display: flex;
+    border: 2px black solid;
+    font-size: small;
+
+}
+
+
+#cerial{
+    margin-left: 100px;
+    margin-right: 18px;
+}
+
+#calories{
+    display: flex;
+}
+
+#c1{
+    margin-right: 52px;
+    padding-right: 100px;
+}
+
+#c1 p{
+    padding-right: 0px;
+    padding-left: 0px;
+    margin-right: 0px;
+    margin-left: 0px;
+
+}
+
+#c2 p{    
+    padding-right: 26px;
+}
+
+hr{
+    margin-left: 20px;
+}
+
+#inside{
+    display: flex;
+    margin-left: 20px;
+
+}
+
+
+#i1 p{
+    padding-right: 90px;
+}
+
+#i2 p{    
+    padding-right: 26px;
+}
+
+#blackbar2{
+    background-color: black;
+    width: 320px;
+    height: 10px;
+}
+
+#daily{
+    display: flex;
+    justify-content: flex-end;
+    border: 2px black solid;
+}
